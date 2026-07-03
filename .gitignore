@@ -1,1 +1,11 @@
+.env
+.vscode
+
+*.pyc
+
 venv/
+
+.streamlit/
+
+
+dist/
