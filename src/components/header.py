@@ -9,4 +9,15 @@ def header_home(key_suffix=""):
         <h1 style='text-align:center'; color:#E0E3FF'>SNAP<br/> CLASS </h1>
         </div>            
                 """, unsafe_allow_html=True)
+    
+def header_dashboard(key_suffix=""):
+    logo_url = "https://i.ibb.co/YTYGn5qV/logo.png"
+
+    st.markdown(f"""
+        <div style="display: flex; align-items: center; justify-content: center; gap:10px";>
+        <img src='{logo_url}' style='max-height: 85px; border-radius: 15px; margin-bottom: 10px;' />       
+        <h2 style='text-align:left; color:#5865F2'>SNAP<br/> CLASS </h1>
+        </div>            
+                """, unsafe_allow_html=True)
+   
    
